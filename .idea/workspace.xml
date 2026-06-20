@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="0b96edaf-ce5b-4e16-b5aa-5418914eefae" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C1_W1_Lab02_Model_Representation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NB/C1_W1.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NB/C1_W1/Files/home/jovyan/work/.ipynb_checkpoints/C1_W1_Lab01_Python_Jupyter_Soln-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NB/C1_W1/Files/home/jovyan/work/.ipynb_checkpoints/C1_W1_Lab02_Model_Representation_Soln-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NB/C1_W1/Files/home/jovyan/work/.ipynb_checkpoints/C1_W1_Lab03_Cost_function_Soln-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NB/C1_W1/Files/home/jovyan/work/.ipynb_checkpoints/C1_W1_Lab04_Gradient_Descent_Soln-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NB/C1_W1/Files/home/jovyan/work/C1_W1_Lab01_Python_Jupyter_Soln.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NB/C1_W1/Files/home/jovyan/work/C1_W1_Lab02_Model_Representation_Soln.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NB/C1_W1/Files/home/jovyan/work/C1_W1_Lab03_Cost_function_Soln.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NB/C1_W1/Files/home/jovyan/work/C1_W1_Lab04_Gradient_Descent_Soln.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NB/C1_W1/Files/home/jovyan/work/betaversion/.ipynb_checkpoints/C1_W1_Lab01_Python_Jupyter_Soln-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NB/C1_W1/Files/home/jovyan/work/betaversion/C1_W1_Lab01_Python_Jupyter_Soln.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NB/C1_W1/Files/home/jovyan/work/betaversion/C1_W1_Lab02_Course_Preview_Soln.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NB/C1_W1/Files/home/jovyan/work/betaversion/C1_W1_Lab03_Model_Representation_Soln.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NB/C1_W1/Files/home/jovyan/work/betaversion/C1_W1_Lab04_Cost_function_Soln.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NB/C1_W1/Files/home/jovyan/work/betaversion/C1_W1_Lab05_Gradient_Descent_Soln.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NB/C1_W1/Files/home/jovyan/work/betaversion/images/C1W1L1_Markdown.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NB/C1_W1/Files/home/jovyan/work/betaversion/images/C1W1L1_Run.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NB/C1_W1/Files/home/jovyan/work/betaversion/images/C1W1L1_Tour.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NB/C1_W1/Files/home/jovyan/work/betaversion/images/C1_W1_L3_S1_Lecture_b.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NB/C1_W1/Files/home/jovyan/work/betaversion/images/C1_W1_L3_S1_model.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NB/C1_W1/Files/home/jovyan/work/betaversion/images/C1_W1_L3_S1_trainingdata.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NB/C1_W1/Files/home/jovyan/work/betaversion/images/C1_W1_L3_S2_Lecture_b.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NB/C1_W1/Files/home/jovyan/work/betaversion/images/C1_W1_L4_S1_Lecture_GD.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NB/C1_W1/Files/home/jovyan/work/betaversion/images/C1_W1_Lab02_GoalOfRegression.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NB/C1_W1/Files/home/jovyan/work/betaversion/images/C1_W1_Lab03_alpha_too_big.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NB/C1_W1/Files/home/jovyan/work/betaversion/images/C1_W1_Lab03_lecture_learningrate.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NB/C1_W1/Files/home/jovyan/work/betaversion/images/C1_W1_Lab03_lecture_slopes.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NB/C1_W1/Files/home/jovyan/work/betaversion/lab_utils_common.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NB/C1_W1/Files/home/jovyan/work/betaversion/lab_utils_uni.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NB/C1_W1/Files/home/jovyan/work/data.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NB/C1_W1/Files/home/jovyan/work/deeplearning.mplstyle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NB/C1_W1/Files/home/jovyan/work/images/C1W1L1_Markdown.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NB/C1_W1/Files/home/jovyan/work/images/C1W1L1_Run.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NB/C1_W1/Files/home/jovyan/work/images/C1W1L1_Tour.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NB/C1_W1/Files/home/jovyan/work/images/C1_W1_L3_S1_Lecture_b.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NB/C1_W1/Files/home/jovyan/work/images/C1_W1_L3_S1_model.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NB/C1_W1/Files/home/jovyan/work/images/C1_W1_L3_S1_trainingdata.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NB/C1_W1/Files/home/jovyan/work/images/C1_W1_L3_S2_Lecture_b.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NB/C1_W1/Files/home/jovyan/work/images/C1_W1_L4_S1_Lecture_GD.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NB/C1_W1/Files/home/jovyan/work/images/C1_W1_Lab02_GoalOfRegression.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NB/C1_W1/Files/home/jovyan/work/images/C1_W1_Lab03_alpha_too_big.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NB/C1_W1/Files/home/jovyan/work/images/C1_W1_Lab03_lecture_learningrate.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NB/C1_W1/Files/home/jovyan/work/images/C1_W1_Lab03_lecture_slopes.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NB/C1_W1/Files/home/jovyan/work/lab_utils_common.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NB/C1_W1/Files/home/jovyan/work/lab_utils_uni.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NB/C1_W2.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NB/C1_W2/Files/home/jovyan/work/.ipynb_checkpoints/C1_W2_Lab01_Model_Representation-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NB/C1_W2/Files/home/jovyan/work/.ipynb_checkpoints/C1_W2_Lab01_Python_Numpy_Vectorization_Soln-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NB/C1_W2/Files/home/jovyan/work/.ipynb_checkpoints/C1_W2_Lab02_Cost_function-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NB/C1_W2/Files/home/jovyan/work/.ipynb_checkpoints/C1_W2_Lab02_Multiple_Variable_Soln-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NB/C1_W2/Files/home/jovyan/work/.ipynb_checkpoints/C1_W2_Lab03_Feature_Scaling_and_Learning_Rate_Soln-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NB/C1_W2/Files/home/jovyan/work/.ipynb_checkpoints/C1_W2_Lab03_Gradient_descent-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NB/C1_W2/Files/home/jovyan/work/.ipynb_checkpoints/C1_W2_Lab04_FeatEng_PolyReg_Soln-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NB/C1_W2/Files/home/jovyan/work/.ipynb_checkpoints/C1_W2_Lab04_Multiple_Variable_Representation-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NB/C1_W2/Files/home/jovyan/work/.ipynb_checkpoints/C1_W2_Lab05_Multiple_Variable_Cost-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NB/C1_W2/Files/home/jovyan/work/.ipynb_checkpoints/C1_W2_Lab05_Sklearn_GD_Soln-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NB/C1_W2/Files/home/jovyan/work/.ipynb_checkpoints/C1_W2_Lab06_Multiple_Variable_Gradient_Descent-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NB/C1_W2/Files/home/jovyan/work/.ipynb_checkpoints/C1_W2_Lab06_Sklearn_Normal_Soln-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NB/C1_W2/Files/home/jovyan/work/.ipynb_checkpoints/C1_W2_Lab07_Normal_Equations-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NB/C1_W2/Files/home/jovyan/work/.ipynb_checkpoints/C1_W2_Lab08_Sklearn-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NB/C1_W2/Files/home/jovyan/work/.ipynb_checkpoints/C1_W2_Lab09_Multiple_Variable_Gradient_Descent_Soln-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NB/C1_W2/Files/home/jovyan/work/.ipynb_checkpoints/C1_W2_Lab09_Multiple_Variable_Gradient_Descent_user-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NB/C1_W2/Files/home/jovyan/work/.ipynb_checkpoints/oldC1_W2_Lab01_Model_Representation-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NB/C1_W2/Files/home/jovyan/work/.ipynb_checkpoints/oldC1_W2_Lab02_Cost_function-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NB/C1_W2/Files/home/jovyan/work/.ipynb_checkpoints/oldC1_W2_Lab03_Gradient_descent-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NB/C1_W2/Files/home/jovyan/work/.ipynb_checkpoints/oldC1_W2_Lab04_Multiple_Variable_Representation-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NB/C1_W2/Files/home/jovyan/work/.ipynb_checkpoints/oldC1_W2_Lab05-_Multiple_Variable_Cost-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NB/C1_W2/Files/home/jovyan/work/.ipynb_checkpoints/oldC1_W2_Lab06_Multiple_Variable_Gradient Descent-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NB/C1_W2/Files/home/jovyan/work/.ipynb_checkpoints/oldC1_W2_Lab07_Normal_Equations-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NB/C1_W2/Files/home/jovyan/work/.ipynb_checkpoints/oldC1_W2_Lab08_Sklearn-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NB/C1_W2/Files/home/jovyan/work/.ipynb_checkpoints/oldW2_UGL1_Model_Representation-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NB/C1_W2/Files/home/jovyan/work/.ipynb_checkpoints/oldW2_UGL8_Scikit_Learn-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NB/C1_W2/Files/home/jovyan/work/C1_W2_Lab01_Python_Numpy_Vectorization_Soln.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NB/C1_W2/Files/home/jovyan/work/C1_W2_Lab02_Multiple_Variable_Soln.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NB/C1_W2/Files/home/jovyan/work/C1_W2_Lab03_Feature_Scaling_and_Learning_Rate_Soln.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NB/C1_W2/Files/home/jovyan/work/C1_W2_Lab04_FeatEng_PolyReg_Soln.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NB/C1_W2/Files/home/jovyan/work/C1_W2_Lab05_Sklearn_GD_Soln.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NB/C1_W2/Files/home/jovyan/work/C1_W2_Lab06_Sklearn_Normal_Soln.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NB/C1_W2/Files/home/jovyan/work/archive/.ipynb_checkpoints/C1_W2_Lab01_Python_Numpy_Vectorization_Soln-Copy1-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NB/C1_W2/Files/home/jovyan/work/archive/C1_W2_Lab01_Python_Numpy_Vectorization_Soln-Copy1.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NB/C1_W2/Files/home/jovyan/work/data/houses.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NB/C1_W2/Files/home/jovyan/work/deeplearning.mplstyle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NB/C1_W2/Files/home/jovyan/work/images/C1_W2_L1_S1_Lecture_b.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NB/C1_W2/Files/home/jovyan/work/images/C1_W2_L1_S1_model.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NB/C1_W2/Files/home/jovyan/work/images/C1_W2_L1_S1_trainingdata.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NB/C1_W2/Files/home/jovyan/work/images/C1_W2_L1_S2_Lectureb.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NB/C1_W2/Files/home/jovyan/work/images/C1_W2_L2_S1_Lecture_GD.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NB/C1_W2/Files/home/jovyan/work/images/C1_W2_Lab02_GoalOfRegression.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NB/C1_W2/Files/home/jovyan/work/images/C1_W2_Lab03_alpha_to_big.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NB/C1_W2/Files/home/jovyan/work/images/C1_W2_Lab03_lecture_learningrate.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NB/C1_W2/Files/home/jovyan/work/images/C1_W2_Lab03_lecture_slopes.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NB/C1_W2/Files/home/jovyan/work/images/C1_W2_Lab04_Figures And animations.pptx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NB/C1_W2/Files/home/jovyan/work/images/C1_W2_Lab04_Matrices.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NB/C1_W2/Files/home/jovyan/work/images/C1_W2_Lab04_Vectors.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NB/C1_W2/Files/home/jovyan/work/images/C1_W2_Lab04_dot_notrans.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NB/C1_W2/Files/home/jovyan/work/images/C1_W2_Lab06_LongRun.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NB/C1_W2/Files/home/jovyan/work/images/C1_W2_Lab06_ShortRun.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NB/C1_W2/Files/home/jovyan/work/images/C1_W2_Lab06_contours.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NB/C1_W2/Files/home/jovyan/work/images/C1_W2_Lab06_featurescalingheader.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NB/C1_W2/Files/home/jovyan/work/images/C1_W2_Lab06_learningrate.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NB/C1_W2/Files/home/jovyan/work/images/C1_W2_Lab06_scale.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NB/C1_W2/Files/home/jovyan/work/images/C1_W2_Lab07_FeatureEngLecture.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NB/C1_W2/Files/home/jovyan/work/lab_utils_common.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NB/C1_W2/Files/home/jovyan/work/lab_utils_multi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NB/C1_W3.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NB/C1_W3/Files/home/jovyan/work/.ipynb_checkpoints/C1_W3_Logistic_Regression-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NB/C1_W3/Files/home/jovyan/work/C1_W3_Logistic_Regression.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NB/C1_W3/Files/home/jovyan/work/archive/.ipynb_checkpoints/20230213_C1_W3_Logistic_Regression-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NB/C1_W3/Files/home/jovyan/work/archive/.ipynb_checkpoints/C1_W3_Logistic_Regression-Copy1-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NB/C1_W3/Files/home/jovyan/work/archive/.ipynb_checkpoints/C1_W3_Logistic_Regression-Copy2-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NB/C1_W3/Files/home/jovyan/work/archive/20230213_C1_W3_Logistic_Regression.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NB/C1_W3/Files/home/jovyan/work/archive/C1_W3_Logistic_Regression-Copy1.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NB/C1_W3/Files/home/jovyan/work/archive/C1_W3_Logistic_Regression-Copy2.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NB/C1_W3/Files/home/jovyan/work/data/ex2data1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NB/C1_W3/Files/home/jovyan/work/data/ex2data2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NB/C1_W3/Files/home/jovyan/work/images/figure 1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NB/C1_W3/Files/home/jovyan/work/images/figure 2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NB/C1_W3/Files/home/jovyan/work/images/figure 3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NB/C1_W3/Files/home/jovyan/work/images/figure 4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NB/C1_W3/Files/home/jovyan/work/public_tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NB/C1_W3/Files/home/jovyan/work/test_utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NB/C1_W3/Files/home/jovyan/work/utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/data.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/houses.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/deeplearning.mplstyle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab_utils_common.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab_utils_uni.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="EmbeddingIndexingInfo">
+    <option name="cachedIndexableFilesCount" value="5" />
+    <option name="fileBasedEmbeddingIndicesEnabled" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="McpProjectServerCommands">
+    <commands />
+    <urls />
+  </component>
+  <component name="NextEditCompletionFeaturesState">
+    <decayedCancelled>
+      <entry key="MS100" value="1.0002024705922399" />
+      <entry key="MS500" value="1.1825040103558662" />
+      <entry key="S2" value="1.676323801737105" />
+      <entry key="S5" value="2.490873240110831" />
+      <entry key="S10" value="4.359679810924105" />
+      <entry key="S30" value="8.760301533024528" />
+      <entry key="S60" value="10.962202375797196" />
+      <entry key="M2" value="12.358919967346468" />
+      <entry key="M5" value="13.907987826699186" />
+      <entry key="M10" value="18.34043890137346" />
+      <entry key="M15" value="23.456320752827775" />
+      <entry key="M30" value="34.444055583953094" />
+      <entry key="H1" value="44.23444233073342" />
+      <entry key="H2" value="50.8530817084597" />
+      <entry key="H4" value="54.71397091033178" />
+      <entry key="D1" value="58.25410152892677" />
+      <entry key="W1" value="58.89264207086021" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="0.0" />
+      <entry key="S2" value="0.0" />
+      <entry key="S5" value="0.0" />
+      <entry key="S10" value="0.0" />
+      <entry key="S30" value="0.0" />
+      <entry key="S60" value="0.0" />
+      <entry key="M2" value="0.0" />
+      <entry key="M5" value="0.0" />
+      <entry key="M10" value="0.0" />
+      <entry key="M15" value="0.0" />
+      <entry key="M30" value="0.0" />
+      <entry key="H1" value="0.0" />
+      <entry key="H2" value="0.0" />
+      <entry key="H4" value="0.0" />
+      <entry key="D1" value="0.0" />
+      <entry key="W1" value="0.0" />
+    </decayedSelected>
+    <decayedShown>
+      <entry key="MS100" value="0.9864310083010635" />
+      <entry key="MS500" value="1.178977825006993" />
+      <entry key="S2" value="1.674929484967361" />
+      <entry key="S5" value="2.4899813394885606" />
+      <entry key="S10" value="4.358836559724606" />
+      <entry key="S30" value="8.75969823670444" />
+      <entry key="S60" value="10.961818985439105" />
+      <entry key="M2" value="12.358695290797781" />
+      <entry key="M5" value="13.90724779228578" />
+      <entry key="M10" value="18.338030801254018" />
+      <entry key="M15" value="23.453083565518686" />
+      <entry key="M30" value="34.44066347842874" />
+      <entry key="H1" value="44.231949107270935" />
+      <entry key="H2" value="50.85156424352325" />
+      <entry key="H4" value="54.713132956283744" />
+      <entry key="D1" value="58.25394974135208" />
+      <entry key="W1" value="58.89262007409516" />
+    </decayedShown>
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 8,
+  "fromUser": false
+}]]></component>
+  <component name="ProjectId" id="3FPkLibrJ9nxW5IvfTAdno6bXGH" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.C1_W1_Lab02_Model_Representation.executor": "Run",
+    "RunOnceActivity.MCP Project settings loaded": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "git-widget-placeholder": "master",
+    "junie.onboarding.icon.badge.shown": "true",
+    "last_opened_file_path": "/home/shon/PycharmProjects/ML_supervised/images",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "to.speed.mode.migration.done": "true",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/images" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-c59985aa861c-c2ffad84badb-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-261.24374.152" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0b96edaf-ce5b-4e16-b5aa-5418914eefae" name="Changes" comment="" />
+      <created>1781984037759</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1781984037759</updated>
+      <workItem from="1781984038790" duration="2982000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/ML_supervised$C1_W1_Lab02_Model_Representation.coverage" NAME="C1_W1_Lab02_Model_Representation Coverage Results" MODIFIED="1781985625415" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+</project>
