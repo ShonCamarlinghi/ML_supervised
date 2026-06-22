@@ -37,7 +37,7 @@ def compute_cost(x, y, w, b):
     for i in range(m):
         f_wb = w * x[i] + b   # f_wb: a prediction is calculated
         cost = (f_wb - y[i]) ** 2
-        cost_sum = cost_sum + cost
+        cost_sum += cost
     total_cost = (1 / (2 * m)) * cost_sum
 
     return total_cost
