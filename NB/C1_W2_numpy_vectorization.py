@@ -209,3 +209,21 @@ print(f"loop version duration: {1000*(toc-tic):.4f} ms ")
 del(a);del(b)  #remove these big arrays from memory
 
 
+""" Vector Vector operations in Course 1
+Vector Vector operations will appear frequently in course 1. Here is why:
+
+Going forward, our examples will be stored in an array, X_train of dimension (m,n). This will be explained more in context, but here it is important to note it is a 2 Dimensional array or matrix (see next section on matrices).
+w will be a 1-dimensional vector of shape (n,).
+we will perform operations by looping through the examples, extracting each example to work on individually by indexing X. For example:X[i]
+X[i] returns a value of shape (n,), a 1-dimensional vector. Consequently, operations involving X[i] are often vector-vector.
+That is a somewhat lengthy explanation, but aligning and understanding the shapes of your operands is important when performing vector operations."""
+
+# show common Course 1 example
+X = np.array([[1],[2],[3],[4]])
+w = np.array([2])
+c = np.dot(X[1], w)
+
+print(f"X[1] has shape {X[1].shape}")
+print(f"w has shape {w.shape}")
+print(f"c has shape {c.shape}")
+
