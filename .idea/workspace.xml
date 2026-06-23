@@ -5,14 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0b96edaf-ce5b-4e16-b5aa-5418914eefae" name="Changes" comment=" C1_W1 cost function for linear regression">
-      <change afterPath="$PROJECT_DIR$/.idea/ML_supervised.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradient_descent_linear_regression.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/contour_2D_3D_plots_cost_function_linear_regression.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/convex_cost_surface_linear_regression.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/cost_function_linear_regression_housing_prices.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/other.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C1_W2_FeatureEng_PolyReg.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C1_W2_LinReg_GD_Scikit-learn.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C1_W2_featureScaling_learningRate.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab_utils_multi.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C1_W1_Lab02_Model_Representation.py" beforeDir="false" afterPath="$PROJECT_DIR$/C1_W1_model_representation.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C1_W1_cost_function_for_linear_regression.py" beforeDir="false" afterPath="$PROJECT_DIR$/C1_W1_cost_function_for_linear_regression.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/C1_W2_Matrices.py" beforeDir="false" afterPath="$PROJECT_DIR$/C1_W2_numpy_matrices.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -126,8 +127,11 @@
     "Python.C1_W1_Lab02_Model_Representation.executor": "Run",
     "Python.C1_W1_cost_function.executor": "Run",
     "Python.C1_W1_cost_function_for_linear_regression.executor": "Run",
+    "Python.C1_W2_FeatureEng_PolyReg.executor": "Run",
+    "Python.C1_W2_featureScaling_learningRate.executor": "Run",
     "Python.gradient_descent_linear_regression.executor": "Run",
     "RunOnceActivity.MCP Project settings loaded": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
@@ -136,32 +140,37 @@
     "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
     "git-widget-placeholder": "master",
     "junie.onboarding.icon.badge.shown": "true",
-    "last_opened_file_path": "/home/shon/PycharmProjects/ML_supervised/images",
+    "last_opened_file_path": "C:/Users/shonc/PycharmProjects/ML_supervised/images",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
     "to.speed.mode.migration.done": "true",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\shonc\PycharmProjects\ML_supervised" />
       <recent name="$PROJECT_DIR$/images" />
       <recent name="$PROJECT_DIR$" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\shonc\PycharmProjects\ML_supervised" />
+      <recent name="C:\Users\shonc\PycharmProjects\ML_supervised\images" />
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-c59985aa861c-c2ffad84badb-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-261.24374.152" />
+        <option value="bundled-python-sdk-09665e90c3a7-b11f5e8da5ad-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-233.15026.15" />
       </set>
     </attachedChunks>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="0b96edaf-ce5b-4e16-b5aa-5418914eefae" name="Changes" comment="" />
@@ -171,6 +180,8 @@
       <updated>1781984037759</updated>
       <workItem from="1781984038790" duration="5098000" />
       <workItem from="1782079093506" duration="6350000" />
+      <workItem from="1782252442648" duration="83000" />
+      <workItem from="1782252549384" duration="3144000" />
     </task>
     <task id="LOCAL-00001" summary="Course 1 | Supervised ML | regression and classification | practice labs">
       <option name="closed" value="true" />
@@ -208,9 +219,11 @@
     <option name="LAST_COMMIT_MESSAGE" value=" C1_W1 cost function for linear regression" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/ML_supervised$C1_W1_Lab02_Model_Representation.coverage" NAME="C1_W1_Lab02_Model_Representation Coverage Results" MODIFIED="1781985625415" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/ML_supervised$C1_W1_cost_function.coverage" NAME="C1_W1_cost_function Coverage Results" MODIFIED="1782080798146" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/ML_supervised$C1_W1_cost_function_for_linear_regression.coverage" NAME="C1_W1_cost_function_for_linear_regression Coverage Results" MODIFIED="1782083308234" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ML_supervised$C1_W2_featureScaling_learningRate.coverage" NAME="C1_W2_featureScaling_learningRate Coverage Results" MODIFIED="1782254564091" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ML_supervised$C1_W2_FeatureEng_PolyReg.coverage" NAME="C1_W2_FeatureEng_PolyReg Coverage Results" MODIFIED="1782255342145" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/ML_supervised$gradient_descent_linear_regression.coverage" NAME="gradient_descent_linear_regression Coverage Results" MODIFIED="1782086722921" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ML_supervised$C1_W1_Lab02_Model_Representation.coverage" NAME="C1_W1_Lab02_Model_Representation Coverage Results" MODIFIED="1781985625415" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ML_supervised$C1_W1_cost_function_for_linear_regression.coverage" NAME="C1_W1_cost_function_for_linear_regression Coverage Results" MODIFIED="1782083308234" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ML_supervised$C1_W1_cost_function.coverage" NAME="C1_W1_cost_function Coverage Results" MODIFIED="1782080798146" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
