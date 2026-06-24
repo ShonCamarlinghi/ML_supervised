@@ -110,3 +110,4 @@ unlike the linear regression model, this model continues to make correct predict
 
 plt.close('all')
 addpt = plt_one_addpt_onclick( x_train,y_train, w_in, b_in, logistic=True)
+

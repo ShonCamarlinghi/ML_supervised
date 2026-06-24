@@ -5,17 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0b96edaf-ce5b-4e16-b5aa-5418914eefae" name="Changes" comment=" C1_W2 Feature scaling/normalization and learning rate for Polynomial Regression models | Linear Regression and Gradient Descent in Scikit-learn.">
-      <change afterPath="$PROJECT_DIR$/C1_W3_classification.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/c1_w3_sigmoid_function.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plt_logistic_loss.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plt_one_addpt_onclick.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plt_overfit.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plt_quad_logistic.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C1_W3_LogisticLoss.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C1_W3_costFunc_for_logisticRegression.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C1_W3_gradient_descent_logistic_regression.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C1_W2_FeatureEng_PolyReg.py" beforeDir="false" afterPath="$PROJECT_DIR$/C1_W2_featureEng_polyReg.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C1_W2_LinReg_GD_Scikit-learn.py" beforeDir="false" afterPath="$PROJECT_DIR$/C1_W2_linReg_GD_scikit-learn.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deeplearning.mplstyle" beforeDir="false" afterPath="$PROJECT_DIR$/deeplearning.mplstyle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab_utils_common.py" beforeDir="false" afterPath="$PROJECT_DIR$/lab_utils_common.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/C1_W3_sigmoid_function.py" beforeDir="false" afterPath="$PROJECT_DIR$/C1_W3_sigmoid_function.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,7 +28,9 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="INCOMING_COMMITS_CHECK_STRATEGY" value="FETCH" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="SAVE_CHANGES_POLICY" value="STASH" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {
@@ -55,60 +51,60 @@
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
       <entry key="MS100" value="1.0" />
-      <entry key="MS500" value="1.0000000009522108" />
-      <entry key="S2" value="1.0055917516608865" />
-      <entry key="S5" value="1.142651348760778" />
-      <entry key="S10" value="1.527673977054256" />
-      <entry key="S30" value="3.243650910440496" />
-      <entry key="S60" value="5.226027443121742" />
-      <entry key="M2" value="8.319949732837529" />
-      <entry key="M5" value="17.402034138255722" />
-      <entry key="M10" value="28.55835694141168" />
-      <entry key="M15" value="35.90213941013865" />
-      <entry key="M30" value="51.06198022426509" />
-      <entry key="H1" value="75.15871998638943" />
-      <entry key="H2" value="104.87099717897716" />
-      <entry key="H4" value="130.05585079351553" />
-      <entry key="D1" value="159.79768025132842" />
-      <entry key="W1" value="165.94184437026004" />
+      <entry key="MS500" value="1.0" />
+      <entry key="S2" value="1.0" />
+      <entry key="S5" value="1.0" />
+      <entry key="S10" value="1.0" />
+      <entry key="S30" value="1.0" />
+      <entry key="S60" value="1.000000000727515" />
+      <entry key="M2" value="1.0000277314354822" />
+      <entry key="M5" value="1.0202899860105397" />
+      <entry key="M10" value="1.2260700266703382" />
+      <entry key="M15" value="1.5272324105555506" />
+      <entry key="M30" value="2.6684441717041705" />
+      <entry key="H1" value="9.789522687795687" />
+      <entry key="H2" value="35.09311898153129" />
+      <entry key="H4" value="75.17793146677342" />
+      <entry key="D1" value="148.57540698042163" />
+      <entry key="W1" value="167.58656164610034" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
       <entry key="MS500" value="0.0" />
       <entry key="S2" value="0.0" />
       <entry key="S5" value="0.0" />
-      <entry key="S10" value="1.161764791999416E-232" />
-      <entry key="S30" value="4.879470951783761E-78" />
-      <entry key="S60" value="2.2089524557544857E-39" />
-      <entry key="M2" value="4.6999494207432463E-20" />
-      <entry key="M5" value="1.857108482562768E-8" />
-      <entry key="M10" value="1.362757675657257E-4" />
-      <entry key="M15" value="0.0026481693693915123" />
-      <entry key="M30" value="0.05146036697684446" />
-      <entry key="H1" value="0.22684877556831656" />
-      <entry key="H2" value="0.47628644277190685" />
-      <entry key="H4" value="0.6901350902337199" />
-      <entry key="D1" value="0.9400602410002269" />
-      <entry key="W1" value="0.9912086831014568" />
+      <entry key="S10" value="0.0" />
+      <entry key="S30" value="9.000488228846352E-203" />
+      <entry key="S60" value="9.487090296211152E-102" />
+      <entry key="M2" value="3.080112059034722E-51" />
+      <entry key="M5" value="6.243478303089813E-21" />
+      <entry key="M10" value="7.901568390572734E-11" />
+      <entry key="M15" value="1.8413748293587938E-7" />
+      <entry key="M30" value="4.2911243624005915E-4" />
+      <entry key="H1" value="0.020715029235800247" />
+      <entry key="H2" value="0.14392716642732975" />
+      <entry key="H4" value="0.3793773404241866" />
+      <entry key="D1" value="0.8508347737441683" />
+      <entry key="W1" value="0.9771874713318637" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.9794202975869268" />
-      <entry key="MS500" value="0.9958497540440324" />
-      <entry key="S2" value="1.004548696648054" />
-      <entry key="S5" value="1.1421959629119092" />
-      <entry key="S10" value="1.5273917225216884" />
-      <entry key="S30" value="3.2434699181897653" />
-      <entry key="S60" value="5.225879172890032" />
-      <entry key="M2" value="8.319797645555902" />
-      <entry key="M5" value="17.401820944577402" />
-      <entry key="M10" value="28.558223771524865" />
-      <entry key="M15" value="35.90444103756513" />
-      <entry key="M30" value="51.1125333373652" />
-      <entry key="H1" value="75.38387580454" />
-      <entry key="H2" value="105.34550869806876" />
-      <entry key="H4" value="130.74468079205954" />
-      <entry key="D1" value="160.7374384597747" />
-      <entry key="W1" value="166.93300738120988" />
+      <entry key="MS100" value="0.9201876506248751" />
+      <entry key="MS500" value="0.9835020740262483" />
+      <entry key="S2" value="0.9958497530944581" />
+      <entry key="S5" value="0.9983378297043665" />
+      <entry key="S10" value="0.999168569213607" />
+      <entry key="S30" value="0.9997227795604651" />
+      <entry key="S60" value="0.9998613808999228" />
+      <entry key="M2" value="0.9999584010709602" />
+      <entry key="M5" value="1.0202147053933057" />
+      <entry key="M10" value="1.2255998328934317" />
+      <entry key="M15" value="1.52640831840693" />
+      <entry key="M30" value="2.6677691795941643" />
+      <entry key="H1" value="9.809187067837238" />
+      <entry key="H2" value="35.235936874178414" />
+      <entry key="H4" value="75.55626743016545" />
+      <entry key="D1" value="149.42590856870362" />
+      <entry key="W1" value="168.56369539406484" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -131,7 +127,9 @@
     "Python.C1_W1_cost_function_for_linear_regression.executor": "Run",
     "Python.C1_W2_FeatureEng_PolyReg.executor": "Run",
     "Python.C1_W2_featureScaling_learningRate.executor": "Run",
+    "Python.C1_W3_LogisticLoss.executor": "Run",
     "Python.C1_W3_classification.executor": "Run",
+    "Python.C1_W3_costFunc_for_logisticRegression.executor": "Run",
     "Python.c1_w3_sigmoid_function.executor": "Run",
     "Python.gradient_descent_linear_regression.executor": "Run",
     "RunOnceActivity.MCP Project settings loaded": "true",
@@ -150,7 +148,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
+    "settings.editor.selected.configurable": "settings.sync",
     "to.speed.mode.migration.done": "true",
     "vue.rearranger.settings.migration": "true"
   }
@@ -232,13 +230,15 @@
     <option name="LAST_COMMIT_MESSAGE" value=" C1_W2 Feature scaling/normalization and learning rate for Polynomial Regression models | Linear Regression and Gradient Descent in Scikit-learn." />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/ML_supervised$C1_W3_classification.coverage" NAME="C1_W3_classification Coverage Results" MODIFIED="1782262153356" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/ML_supervised$C1_W2_featureScaling_learningRate.coverage" NAME="C1_W2_featureScaling_learningRate Coverage Results" MODIFIED="1782254564091" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/ML_supervised$C1_W2_FeatureEng_PolyReg.coverage" NAME="C1_W2_FeatureEng_PolyReg Coverage Results" MODIFIED="1782255342145" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/ML_supervised$gradient_descent_linear_regression.coverage" NAME="gradient_descent_linear_regression Coverage Results" MODIFIED="1782086722921" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/ML_supervised$C1_W1_Lab02_Model_Representation.coverage" NAME="C1_W1_Lab02_Model_Representation Coverage Results" MODIFIED="1781985625415" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/ML_supervised$C1_W1_cost_function_for_linear_regression.coverage" NAME="C1_W1_cost_function_for_linear_regression Coverage Results" MODIFIED="1782083308234" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ML_supervised$C1_W2_FeatureEng_PolyReg.coverage" NAME="C1_W2_FeatureEng_PolyReg Coverage Results" MODIFIED="1782255342145" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/ML_supervised$c1_w3_sigmoid_function.coverage" NAME="c1_w3_sigmoid_function Coverage Results" MODIFIED="1782261844470" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/ML_supervised$C1_W1_cost_function.coverage" NAME="C1_W1_cost_function Coverage Results" MODIFIED="1782080798146" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ML_supervised$C1_W3_costFunc_for_logisticRegression.coverage" NAME="C1_W3_costFunc_for_logisticRegression Coverage Results" MODIFIED="1782333136047" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ML_supervised$C1_W3_classification.coverage" NAME="C1_W3_classification Coverage Results" MODIFIED="1782262153356" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ML_supervised$C1_W1_cost_function_for_linear_regression.coverage" NAME="C1_W1_cost_function_for_linear_regression Coverage Results" MODIFIED="1782083308234" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ML_supervised$C1_W3_LogisticLoss.coverage" NAME="C1_W3_LogisticLoss Coverage Results" MODIFIED="1782332468238" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ML_supervised$gradient_descent_linear_regression.coverage" NAME="gradient_descent_linear_regression Coverage Results" MODIFIED="1782086722921" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
