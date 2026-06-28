@@ -3,14 +3,25 @@
 # Press Shift+F10 to execute it or replace it with your code.
 # Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
 
+import asyncio
+import tornado
 
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
+class MainHandler(tornado.web.RequestHandler):
+    def get(self):
+        self.write("Hello, world")
 
+def make_app():
+    return tornado.web.Application([
+        (r"/", MainHandler),
+    ])
 
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
+async def main():
+    app = make_app()
+    app.listen(8888)
+    await asyncio.Event().wait()
+
+if __name__ == "__main__":
+    asyncio.run(main())
+
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
